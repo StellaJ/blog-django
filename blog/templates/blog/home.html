@@ -1,0 +1,6 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+{% for key, value in lista %}
+    <h1><a href="{{key}}">{{ key }}</a></h1>
+{% endfor %}
+{% endblock %}
