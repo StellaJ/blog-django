@@ -44,4 +44,10 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+
+}
+
+p {
+    font-family: 'Alegreya', sans-serif;
+    font-size: 15pt;
 }
