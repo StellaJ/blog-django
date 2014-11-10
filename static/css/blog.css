@@ -14,8 +14,19 @@
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Indie Flower', cursive;
+.menu a:hover {
+    margin-left: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+h1, h2 {
+    font-family: 'Amarante', sans-serif;
+}
+
+h3, h4 {
+    font-family: 'EB Garamond', sans-serif;
 }
 
 .date {
@@ -43,11 +54,11 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #000000;
-
+    color: #1A3B69;
+    text-decoration: none;
 }
 
 p {
-    font-family: 'Alegreya', sans-serif;
+    font-family: 'Esteban', sans-serif;
     font-size: 15pt;
 }

@@ -1,5 +1,8 @@
 {% extends 'blog/base.html' %}
 {% block content %}
+	<h3>Witam wszystkich serdecznie na mojej stronie, która powstała w ramach warsztatów Django Girls Warsaw. Znajdziecie tu kilka informacji o mnie, a także (a może przede wszystkim) to co najbardziej mnie interesuje: poszerzanie wiedzy oraz ludzie. </h3>
+{% endblock%}
+{% block menu %}
 {% for key, value in lista %}
     <h1><a href="{{key}}">{{ key }}</a></h1>
 {% endfor %}
